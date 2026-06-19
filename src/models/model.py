@@ -18,6 +18,14 @@ def create_model() -> Any:
     pass
 
 
-def predict(model, X: np.ndarray) -> np.ndarray:
-    """Retorna as predicoes de anomalia para os dados informados."""
+def predict(model: Any, X: np.ndarray) -> np.ndarray:
+    """Retorna as predicoes de anomalia para os dados informados.
+    
+    Args:
+        model: Modelo treinado.
+        X: Matriz de atributos.
+
+    Returns:
+        Array binario que preve possiveis anomalias.
+    """
     pass
